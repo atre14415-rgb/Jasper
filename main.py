@@ -21,7 +21,7 @@ async def on_ready():
     
     # 🎧 إعداد حالة البوت (Listening)
     # إذا أردتها مشاهدة بدلاً من استماع، قم بتغيير .listening إلى .watching
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Diln"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Jasper"))
     print("🎧 تم تعيين حالة البوت إلى: Listening to Jasper")
     print('-----------------------------------------')
 
